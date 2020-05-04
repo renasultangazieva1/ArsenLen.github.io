@@ -1,0 +1,30 @@
+body {
+    width: 100%; 
+    background-color: khaki; 
+}
+
+main {
+    width: 70%;
+    background-color: aqua;
+    margin: auto;
+    box-shadow: 0 0 10px 1px rgba(0,0,0, 0.3);
+}
+
+p { 
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+}
+div {
+    margin: auto;
+}
+h1 {
+    font-size: 50px;
+}
+
+
