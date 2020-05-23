@@ -1,0 +1,112 @@
+/* общие стили */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-image: url(./white-paper-bg.jpg);
+    
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+/* для шапки  */
+.header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    background-color: khaki;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    max-width: 100%;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+}
+.top-menu {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.top-menu li {
+    display: inline;
+    padding: 10px;
+}
+
+
+
+/* button */
+h1 {
+    width: 100%;
+    text-align: center;
+    
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: khaki;
+    color: black;
+}
+
+
+/* content */
+.content {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: auto;
+}
+.item {
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.item1 {
+    background-image: url(./951.png);
+}
+.ex1 {
+    
+    display: flex;
+    justify-content: center;
+}
+.left, .right{
+    margin: 20px;
+    margin-top: 5px;
+}
+.borderP {
+    border: 2px solid lightblue;
+    text-align: center;
+}
+.lastP {
+    text-align: center;
+}
