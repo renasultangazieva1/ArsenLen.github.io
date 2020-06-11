@@ -1,0 +1,126 @@
+/* общие стили */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    background-image: url(./white-paper-bg.jpg);
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+/* для шапки  */
+.header {
+    width: 100%;
+    display: flex;
+    height: auto;
+    background-color: khaki;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    max-width: 100%;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+}
+.top-menu {
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.top-menu li {
+    display: inline;
+    padding: 10px;
+}
+
+/* button */
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: khaki;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.button {
+    width: auto;
+    height: auto;
+    margin: 0.5%;
+    background-color: lightskyblue; 
+    color: #fff; 
+    padding: 0.7%; 
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+a:link {
+    color: black;
+    
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: khaki;
+}
+
+/* CONTENT */
+/* content */
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+.firstPage, .secondPage {
+    width: 50%;
+    height: auto;
+    background-color: khaki;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.firstPage {
+    background-color: khaki;
+    margin-right: 5px;
+}
+/* firstPage */
+.first {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.textFirst, .imgFirst {
+    width: calc(50% - 40px);
+    height: 250px;
+    background-color: khaki;
+    margin: 10px;
+}
+
+.textFirst p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.imgFirst {
+    background-image: url(./39_1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+/* secondPage */
